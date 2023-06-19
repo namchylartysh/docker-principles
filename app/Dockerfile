@@ -1,5 +1,6 @@
 #Base image for our spring application: OS + Java 8
 FROM openjdk:8
+#FROM ubuntu:latest
 
 #Copy jar file from "target" directory to "root" folder in container
 #This step requires to build application before building the image
