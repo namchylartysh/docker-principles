@@ -2,7 +2,7 @@ version: '3.3'
 services:
   app:
    container_name: app
-   image: javahelloworld:latest
+   image: artyshnamchyl85/test
   db:
    container_name: db
    image: mysql:5.7
@@ -11,4 +11,4 @@ services:
    volumes:
      - ./db/mysql-datadir:/var/lib/mysql
    ports:
-     - "3306:3306"
+     - "3307:3306"

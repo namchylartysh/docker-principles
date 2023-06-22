@@ -1,5 +1,5 @@
 #Base image for our spring application: OS + Java 8
-FROM openjdk:8
+FROM openjdk:17-alpine
 #FROM ubuntu:latest
 
 #Copy jar file from "target" directory to "root" folder in container
